@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <!-- <script src="isuser.js"></script> -->
+    <title>JS Testing</title>
+</head>
+
+<body>
+    <div aria-live="polite" aria-atomic="true" style="position: relative; min-height: 200px;">
+        <!-- Position it -->
+        <div style="position: absolute; top: 0; right: 0;">
+
+            <!-- Then put toasts within -->
+            <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-delay="4000" id="t1">
+                <div class="toast-header">
+                    <img src="https://img1.pnghut.com/9/21/19/SDetgtYsJ1/sign-mental-health-counselor-symbol-logo-trademark.jpg"
+                        class="rounded mr-2" alt="..." width="20">
+                    <strong class="mr-auto">Aviso</strong>
+                    <small class="text-muted">____________________just now</small>
+                    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="toast-body">
+                    El usuario ha sido confirmado
+                </div>
+            </div>
+
+            <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-delay="4000" id="t2">
+                <div class="toast-header">
+                    <img src="https://globalsymbols.com/uploads/production/image/imagefile/15357/17_15358_162f4845-528e-4300-b597-38bcb79dd072.png"
+                        class="rounded mr-2" alt="..." width="20">
+                    <strong class="mr-auto">Aviso</strong>
+                    <small class="text-muted">2 seconds ago</small>
+                    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="toast-body">
+                    El usuario se ha creado correctamente
+                </div>
+            </div>
+        </div>
+    </div>
+    <center>
+        <h1>Crea tu cuenta</h1>
+        <p class="pp">No hay cuentas con el email introducido. ¡Regístrate y empieza a usar BBC English Mobile en
+            minutos!</p>
+        <section class="control-panel">
+            <div class="input-container l1 email">
+                <label for="email">Email</label>
+                <input type="email" id="email">
+            </div>
+            <div class="input-container l1 country">
+                <label for="country"></label>
+                <input type="text" id="country">
+            </div>
+            <div class="input-container">
+                <label for="name">Nombre</label>
+                <input type="text" id="name">
+            </div>
+            <div class="input-container">
+                <label for="surname">Apellido</label>
+                <input type="text" id="surname">
+            </div>
+            <div class="input-container">
+                <label for="password">Password</label>
+                <input type="text" id="password">
+            </div>
+            <button id="btnAddUser" class="button">Crear Usuario</button>
+        </section>
+        <!-- <hr> -->
+        <section class="user-output">
+            <ul class="user-list"></ul>
+        </section>
+        <!-- <script>
+            $.noConflict();
+        </script> -->
+
+        <script src="dist/main.js"></script>
+    </center>
+</body>
+
+</html>
