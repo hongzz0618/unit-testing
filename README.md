@@ -5,5 +5,6 @@
 
 ###### `npm test` run all the test
 <img src="./img/testing2.png" alt="testing2"/>
+<img src="./img/testing4.png" alt="testing4"/>
 <img src="./img/testing3.png" alt="testing3"/>
 
